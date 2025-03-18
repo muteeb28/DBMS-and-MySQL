@@ -1,18 +1,24 @@
 # Understanding (DBMS) and MySQL
 
 ## Table of Contents
-1. [Introduction to Database](#introduction-to-dbms)
-2. [File Systems](#role-of-dbms)
-3. [What is Database](#key-features-of-dbms)
-4. [DBMS](#popular-dbms-examples)
-5. [What is SQL](#sql-the-common-language)
-6. [Features with DBMS](#key-features-of-dbms)
-7. [RDBMS](#relational-database-management-systems-rdbms)
-8. [Installing MySQL](#installing-mysql)
-9. [REPL](#accessing-the-mysql-console)
-10. [Declarative Programming vs Imperative Programming](#imperative-vs-declarative-programming)
-11. [Create Database](#creating-a-database)
-12. [Create Table](#creating-a-table)
+
+1. [Introduction to DBMS](#introduction-to-dbms)
+2. [Role of DBMS](#role-of-dbms)
+3. [Key Features of DBMS](#key-features-of-dbms)
+4. [Popular DBMS Examples](#popular-dbms-examples)
+5. [SQL: The Common Language](#sql-the-common-language)
+6. [Advantages of DBMS](#advantages-of-dbms)
+7. [Constraints and Security](#constraints-and-security)
+8. [Types of Database Management Systems (DBMS)](#types-of-database-management-systems-dbms)
+9. [Different Ways to Store Data](#different-ways-to-store-data)
+10. [Types of DBMS by Data Structure](#types-of-dbms-by-data-structure)
+11. [Relational Database Management Systems (RDBMS)](#relational-database-management-systems-rdbms)
+12. [Installing MySQL and Using the MySQL Console](#installing-mysql-and-using-the-mysql-console)
+13. [Accessing the MySQL Console](#accessing-the-mysql-console)
+14. [Imperative vs. Declarative Programming](#imperative-vs-declarative-programming)
+15. [Basic MySQL Commands](#basic-mysql-commands)
+16. [Practical Example](#practical-example)
+
 ## Introduction to DBMS
 
 A **Database Management System (DBMS)** is a software layer that sits between applications and the stored database. It provides the necessary tools and interfaces to manage and interact with the database efficiently.
