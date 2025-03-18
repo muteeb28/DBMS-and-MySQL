@@ -69,3 +69,4 @@ A **database** is a collection of related data. Every piece of data in a databas
 2. **Relationships**:
    - **Primary Key**: Unique identifier for each record (e.g., StudentID in the Students table).
    - **Foreign Key**: Links tables together (e.g., CourseID in the Enrollments table references CourseID in the Courses table).
+
